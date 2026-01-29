@@ -68,7 +68,6 @@ namespace _3
                         using (StreamWriter writer = new StreamWriter(filed))
                         {
                             string line;
-
                             while ((line = reader.ReadLine()) != null)
                             {
                                 string[] parts = line.Split(' ');
