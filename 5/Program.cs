@@ -130,6 +130,10 @@ namespace _5
                                     Console.WriteLine($"Предмет удален: {subjectDel}");
                                     deleted = true;
                                 }
+                                else
+                                {
+                                    writer.WriteLine(line);
+                                }
                             }
                         }
                         if (!deleted)
